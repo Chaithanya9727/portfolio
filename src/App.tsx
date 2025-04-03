@@ -38,19 +38,19 @@ const certifications = [
     title: 'Data Analyst',
     issuer: 'Board Infinity',
     date: 'June 2024',
-    link: 'dist/assets/boardinfinitycertificate.pdf'
+    link: "dist/assets/boardinfinitycertificate.pdf"
   },
   {
     title: 'Programing Fundamentals in Kotlin',
     issuer: 'Meta', 
     date: 'Nov 2024',
-    link: 'dist/assets/Courseraandroid.pdf'
+    link: "dist/assets/Courseraandroid.pdf"
   },
   {
     title: 'Data Scientist',
     issuer: 'LinkedIN Learning ',
     date: 'Feb 2023', 
-    link: 'dist/assets/LinkedInLearningCertificate.pdf'
+    link: "dist/assets/LinkedInLearningCertificate.pdf"
   }
 ];
 
