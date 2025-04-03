@@ -38,19 +38,19 @@ const certifications = [
     title: 'Data Analyst',
     issuer: 'Board Infinity',
     date: 'June 2024',
-    link: '/assets/boardinfinity_certificate.pdf'
+    link: '/dist/assets/boardinfinity_certificate.pdf'
   },
   {
     title: 'Programing Fundamentals in Kotlin',
     issuer: 'Meta', 
     date: 'Nov 2024',
-    link: '/assets/Coursera android.pdf'
+    link: '/dist/assets/Coursera android.pdf'
   },
   {
     title: 'Data Scientist',
     issuer: 'LinkedIN Learning ',
     date: 'Feb 2023',
-    link: '/assets/LinkedIn Learning Certificate.pdf'
+    link: '/dist/assets/LinkedIn Learning Certificate.pdf'
   }
 ];
 
@@ -153,7 +153,7 @@ return (
         <a href="#contact" className="text-gray-600 hover:text-gray-900">Contact</a>
         {/* Resume Button */}
         <a
-          href="/assets/Resume.pdf"
+          href="/dist/assets/Resume.pdf"
           download
           target="_blank"
           rel="noopener noreferrer"
@@ -205,7 +205,7 @@ return (
           <div className="md:w-1/2 flex justify-center">
             <div className="w-64 h-64 rounded-full overflow-hidden shadow-xl">
               <img
-                src="/assets/DATASCIENCE.jpg"
+                src="/dist/assets/DATASCIENCE.jpg"
                 alt="Profile"
                 className="w-full h-full object-cover"
               />
