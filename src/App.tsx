@@ -96,9 +96,9 @@ function App() {
       year: '2022'
     },
     {
-      title: 'EDA Major Project',
-      description: 'Established a IMDB Movie Rating System which tells the profit and loss reports and genre of the movie.',
-      year: '2024'
+    "title": "HackerRank Java Coding",
+    "description": "Earned a Silver Badge in Java Coding on HackerRank.",
+    "year": "2024"
     }
   ];
 
