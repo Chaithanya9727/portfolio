@@ -90,16 +90,19 @@ function App() {
       description: 'Designed an EDA of Disease Prediction by our team.',
       year: '2025'
     },
-    {
-      title: 'Chess Player',
-      description: '3rd Place in Chess Club organized by cluster sports',
-      year: '2022'
-    },
+
     {
     "title": "HackerRank Java Coding",
     "description": "Earned a Silver Badge in Java Coding on HackerRank.",
     "year": "2024"
+    },
+
+    {
+      title: 'Chess Player',
+      description: '3rd Place in Chess Club organized by cluster sports',
+      year: '2022'
     }
+    
   ];
 
   const education = [
