@@ -87,7 +87,7 @@ function App() {
   const achievements = [
     {
       title: 'Top 10% in Code-A-Haunt Hackathon',
-      description: 'Designed a EDA of Disease Prediction by our team.',
+      description: 'Designed an EDA of Disease Prediction by our team.',
       year: '2025'
     },
     {
@@ -173,16 +173,26 @@ function App() {
           </div>
         </div>
 
+        {/* Mobile menu */}
         {isMenuOpen && (
           <div className="sm:hidden">
-            <div className="pt-2 pb-3 space-y-1">
+            <div className="pt PTO-2 pb-3 space-y-1">
               <a href="#about" className="block px-3 py-2 text-gray-600 hover:text-gray-900">About</a>
               <a href="#skills" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Skills</a>
-              <a href="#certifications" className=" twilight block px-3 py-2 text-gray-600 hover:text-gray-900">Certifications</a>
+              <a href="#certifications" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Certifications</a>
               <a href="#projects" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Projects</a>
               <a href="#achievements" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Achievements</a>
               <a href="#education" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Education</a>
               <a href="#contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Contact</a>
+              <a
+                href="/Resume.pdf"
+                download
+                target="_blank"
+                rel="noopener noreferrer"
+                className="block px-3 py-2 text-white bg-blue-600 rounded-md mx-3 text-center font-medium hover:bg-blue-700"
+              >
+                My Resume
+              </a>
             </div>
           </div>
         )}
