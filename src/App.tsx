@@ -188,7 +188,7 @@ function App() {
               <a href="#education" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Education</a>
               <a href="#contact" className="block px-3 py-2 text-gray-600 hover:text-gray-900">Contact</a>
               <a
-                href="/Resume.pdf"
+                href="/resumeviswanth.pdf"
                 download
                 target="_blank"
                 rel="noopener noreferrer"
